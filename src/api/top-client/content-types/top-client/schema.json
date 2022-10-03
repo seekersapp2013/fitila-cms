@@ -1,0 +1,30 @@
+{
+  "kind": "collectionType",
+  "collectionName": "top_clients",
+  "info": {
+    "singularName": "top-client",
+    "pluralName": "top-clients",
+    "displayName": "Top Client"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "Picture": {
+      "allowedTypes": [
+        "images"
+      ],
+      "type": "media",
+      "multiple": false,
+      "required": true
+    },
+    "URL": {
+      "type": "string",
+      "required": true
+    },
+    "Name": {
+      "type": "string"
+    }
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "kind": "collectionType",
+  "collectionName": "testinomies",
+  "info": {
+    "singularName": "testinomy",
+    "pluralName": "testinomies",
+    "displayName": "Testinomy",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "Comment": {
+      "type": "text",
+      "required": true
+    },
+    "client": {
+      "type": "relation",
+      "relation": "manyToOne",
+      "target": "api::client.client",
+      "inversedBy": "testinomies"
+    }
+  }
+}

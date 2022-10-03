@@ -1,0 +1,19 @@
+{
+  "collectionName": "components_services_service_1s",
+  "info": {
+    "displayName": "Services",
+    "icon": "running",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "Name": {
+      "type": "string",
+      "required": true
+    },
+    "Description": {
+      "type": "text",
+      "required": true
+    }
+  }
+}

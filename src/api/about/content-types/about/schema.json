@@ -1,0 +1,33 @@
+{
+  "kind": "singleType",
+  "collectionName": "abouts",
+  "info": {
+    "singularName": "about",
+    "pluralName": "abouts",
+    "displayName": "About",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "Header": {
+      "type": "string",
+      "required": true
+    },
+    "Paragraph": {
+      "type": "text",
+      "required": true
+    },
+    "Services": {
+      "displayName": "Service 1",
+      "type": "component",
+      "repeatable": true,
+      "component": "services.service-1",
+      "required": true,
+      "max": 3,
+      "min": 3
+    }
+  }
+}

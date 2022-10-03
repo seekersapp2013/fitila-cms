@@ -1,0 +1,36 @@
+{
+  "kind": "collectionType",
+  "collectionName": "blog_users",
+  "info": {
+    "singularName": "blog-user",
+    "pluralName": "blog-users",
+    "displayName": "Blog User"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "Name": {
+      "type": "string"
+    },
+    "Description": {
+      "type": "text"
+    },
+    "Facebook_URL": {
+      "type": "string"
+    },
+    "Twitter_URL": {
+      "type": "string"
+    },
+    "Be_URL": {
+      "type": "string"
+    },
+    "blogs": {
+      "type": "relation",
+      "relation": "oneToMany",
+      "target": "api::blog.blog",
+      "mappedBy": "blog_user"
+    }
+  }
+}
