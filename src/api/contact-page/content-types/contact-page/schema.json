@@ -1,0 +1,40 @@
+{
+  "kind": "singleType",
+  "collectionName": "contact_pages",
+  "info": {
+    "singularName": "contact-page",
+    "pluralName": "contact-pages",
+    "displayName": "Contact Page"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "Title": {
+      "type": "string",
+      "default": "Let's",
+      "required": true
+    },
+    "Header": {
+      "type": "string",
+      "default": "TALK ABOUT YOUR PROJECT.",
+      "required": true
+    },
+    "Paragraph": {
+      "type": "string",
+      "default": "Feel free to ask me any question or let’s do to talk about our future collaboration.",
+      "required": true
+    },
+    "ContactInfoHeader1": {
+      "type": "string",
+      "default": "LET'S TALK.",
+      "required": true
+    },
+    "ContactInfoHeader2": {
+      "type": "string",
+      "default": "VISIT US.",
+      "required": true
+    }
+  }
+}

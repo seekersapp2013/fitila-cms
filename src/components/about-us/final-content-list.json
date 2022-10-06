@@ -1,17 +1,15 @@
 {
-  "collectionName": "components_services_service_1s",
+  "collectionName": "components_about_us_final_content_lists",
   "info": {
-    "displayName": "Services",
-    "icon": "running",
-    "description": ""
+    "displayName": "FinalContentList"
   },
   "options": {},
   "attributes": {
-    "Name": {
+    "Header": {
       "type": "string",
       "required": true
     },
-    "Description": {
+    "Paragraph": {
       "type": "text",
       "required": true
     }

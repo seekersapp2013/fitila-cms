@@ -1,0 +1,27 @@
+{
+  "collectionName": "components_about_us_core_values",
+  "info": {
+    "displayName": "Core Values",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "Icon": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "images"
+      ]
+    },
+    "CoreValue": {
+      "type": "string",
+      "required": true
+    },
+    "IconName": {
+      "type": "string",
+      "required": false,
+      "default": "pe-7s-gleam"
+    }
+  }
+}

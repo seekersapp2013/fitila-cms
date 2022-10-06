@@ -1,0 +1,25 @@
+{
+  "kind": "singleType",
+  "collectionName": "clients_sections",
+  "info": {
+    "singularName": "clients-section",
+    "pluralName": "clients-sections",
+    "displayName": "Clients Section"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "SectionTitle": {
+      "type": "string",
+      "required": true,
+      "default": "CLIENTS"
+    },
+    "SectionHeader": {
+      "type": "string",
+      "required": true,
+      "default": "OUR CLIENTS."
+    }
+  }
+}

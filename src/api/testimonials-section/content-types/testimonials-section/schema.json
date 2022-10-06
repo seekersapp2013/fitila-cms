@@ -1,0 +1,43 @@
+{
+  "kind": "singleType",
+  "collectionName": "testimonials_sections",
+  "info": {
+    "singularName": "testimonials-section",
+    "pluralName": "testimonials-sections",
+    "displayName": "Testimonials Section"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "Header": {
+      "type": "string",
+      "required": true,
+      "default": "So that's us. There's no other way to put it."
+    },
+    "BackgroundImage": {
+      "allowedTypes": [
+        "images"
+      ],
+      "type": "media",
+      "multiple": false,
+      "required": true
+    },
+    "VideoVimeoURL": {
+      "type": "string",
+      "required": true,
+      "default": "https://vimeo.com/127203262"
+    },
+    "CardTitle": {
+      "type": "string",
+      "default": "OUR HAPPY CLIENTS",
+      "required": true
+    },
+    "CardHeader": {
+      "type": "string",
+      "required": true,
+      "default": "What Client's Say?"
+    }
+  }
+}

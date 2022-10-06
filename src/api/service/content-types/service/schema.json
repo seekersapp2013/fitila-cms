@@ -4,7 +4,8 @@
   "info": {
     "singularName": "service",
     "pluralName": "services",
-    "displayName": "Service"
+    "displayName": "Service",
+    "description": ""
   },
   "options": {
     "draftAndPublish": true
@@ -18,6 +19,17 @@
     "Description": {
       "type": "text",
       "required": true
+    },
+    "IconName": {
+      "type": "string",
+      "default": "pe-7s-gleam"
+    },
+    "Icon": {
+      "allowedTypes": [
+        "images"
+      ],
+      "type": "media",
+      "multiple": false
     }
   }
 }

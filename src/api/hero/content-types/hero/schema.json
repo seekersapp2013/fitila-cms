@@ -4,7 +4,8 @@
   "info": {
     "singularName": "hero",
     "pluralName": "heroes",
-    "displayName": "Hero"
+    "displayName": "Hero",
+    "description": ""
   },
   "options": {
     "draftAndPublish": true
@@ -18,6 +19,24 @@
     "Paragraph": {
       "type": "text",
       "required": true
+    },
+    "BackgroundImage": {
+      "allowedTypes": [
+        "images"
+      ],
+      "type": "media",
+      "multiple": false,
+      "required": true
+    },
+    "CallToActionText": {
+      "type": "string",
+      "required": true,
+      "default": "Look More"
+    },
+    "CallToActionURL": {
+      "type": "string",
+      "required": true,
+      "default": "#"
     }
   }
 }

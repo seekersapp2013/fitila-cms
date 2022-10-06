@@ -1,0 +1,44 @@
+{
+  "kind": "singleType",
+  "collectionName": "services_homes",
+  "info": {
+    "singularName": "services-home",
+    "pluralName": "services-homes",
+    "displayName": "Services Home",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "SectionLabel": {
+      "type": "string",
+      "required": true,
+      "default": "Best Of Our Features"
+    },
+    "BackgroundImage": {
+      "type": "media",
+      "multiple": false,
+      "required": true,
+      "allowedTypes": [
+        "images"
+      ]
+    },
+    "CallToActionText": {
+      "type": "string",
+      "required": true,
+      "default": "See All Services"
+    },
+    "SectionTitle": {
+      "type": "string",
+      "required": true,
+      "default": "Best Features"
+    },
+    "SectionHeader": {
+      "type": "string",
+      "default": "Services.",
+      "required": true
+    }
+  }
+}

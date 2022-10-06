@@ -4,7 +4,7 @@
   "info": {
     "singularName": "about",
     "pluralName": "abouts",
-    "displayName": "About",
+    "displayName": "About Home",
     "description": ""
   },
   "options": {
@@ -20,14 +20,38 @@
       "type": "text",
       "required": true
     },
-    "Services": {
-      "displayName": "Service 1",
+    "CoreValues": {
+      "displayName": "Core Values",
       "type": "component",
       "repeatable": true,
-      "component": "services.service-1",
+      "component": "about-us.core-values",
       "required": true,
-      "max": 3,
-      "min": 3
+      "min": 3,
+      "max": 3
+    },
+    "TopRightImage": {
+      "allowedTypes": [
+        "images"
+      ],
+      "type": "media",
+      "multiple": false,
+      "required": true
+    },
+    "LeftImage": {
+      "allowedTypes": [
+        "images"
+      ],
+      "type": "media",
+      "multiple": false,
+      "required": true
+    },
+    "BottomRightImage": {
+      "allowedTypes": [
+        "images"
+      ],
+      "type": "media",
+      "multiple": false,
+      "required": true
     }
   }
 }
