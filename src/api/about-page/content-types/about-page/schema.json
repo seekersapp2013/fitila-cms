@@ -4,7 +4,8 @@
   "info": {
     "singularName": "about-page",
     "pluralName": "about-pages",
-    "displayName": "About Page"
+    "displayName": "About Page",
+    "description": ""
   },
   "options": {
     "draftAndPublish": true
@@ -17,12 +18,12 @@
       "required": true
     },
     "HeroBackgroundImage": {
-      "allowedTypes": [
-        "images"
-      ],
       "type": "media",
       "multiple": false,
-      "required": true
+      "required": true,
+      "allowedTypes": [
+        "images"
+      ]
     },
     "MainContentHeader": {
       "type": "string",
@@ -49,6 +50,14 @@
       "component": "about-us.final-content-list",
       "required": true,
       "min": 2
+    },
+    "FinalContentImage": {
+      "allowedTypes": [
+        "images"
+      ],
+      "type": "media",
+      "multiple": false,
+      "required": true
     }
   }
 }
