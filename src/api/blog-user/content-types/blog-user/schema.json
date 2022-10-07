@@ -4,7 +4,8 @@
   "info": {
     "singularName": "blog-user",
     "pluralName": "blog-users",
-    "displayName": "Blog User"
+    "displayName": "Blog User",
+    "description": ""
   },
   "options": {
     "draftAndPublish": true
@@ -31,6 +32,13 @@
       "relation": "oneToMany",
       "target": "api::blog.blog",
       "mappedBy": "blog_user"
+    },
+    "Photo": {
+      "allowedTypes": [
+        "images"
+      ],
+      "type": "media",
+      "multiple": false
     }
   }
 }
