@@ -33,6 +33,10 @@
       "relation": "manyToOne",
       "target": "api::blog-user.blog-user",
       "inversedBy": "blogs"
+    },
+    "Description": {
+      "type": "text",
+      "required": false
     }
   }
 }
