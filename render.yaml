@@ -32,4 +32,3 @@ services:
 databases:
   - name: strapi
     plan: starter
-Footer
